@@ -53,7 +53,7 @@ function displayImg() {
 }
 
 function deleteImg() {
-	document.getElementById('display').innerHTML = '';
+	
 	this.children[0].children[0].style.display = 'block';
 	this.children[0].children[1].style.display = 'none';
 }
